@@ -1,6 +1,6 @@
 /*.webgl-content * {border: 0; margin: 0; padding: 0}
 .webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
-
+*/
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 .webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
 .webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
@@ -16,7 +16,6 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
-*/
 
 html, body{
     height: 100%;
@@ -52,51 +51,24 @@ header {
 }
 
 main {
-	width: 100%;
-	max-width: 90rem;
+	width: 50rem;
+	max-width: 100%;
 	min-height: 10rem;
 
 	margin-left: auto;
 	margin-right: auto;
 }
 
-nav {
-	padding: 2rem;
-	width: 15rem;
-	/*flex: 0 1 auto;*/
-	/*display: block;*/
-
-	background: #31363B;
-	float: left;
-	height: 100%;
-}
-nav a{
-	text-decoration: none;
-}
-
-article {
-	background: #31363B;
-	padding: 2rem;
-	margin-left: 20rem;
-	/*margin-right: 1rem;*/
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	/*display: block;*/
-}
 article, nav {
 	min-height: 50vh;
 }
 
-footer {
+/* footer {
 	background: #31363B;
 	width: 100%;
 	height: 4rem;
 }
-
-video {
-	max-width: 100%;
-	max-height: 100%;
-}
+ */
 
 a { color: white; }
 a:hover { background: #334E5E; }
