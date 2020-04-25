@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | borre_demo_level</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/webgl.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">borre_demo_level</div>
-      </div>
-    </div>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Borres demo level</title>
+		<link rel="shortcut icon" href="TemplateData/favicon.ico">
+		<link rel="stylesheet" href="TemplateData/style.css">
+		<script src="TemplateData/UnityProgress.js"></script>
+		<script src="Build/UnityLoader.js"></script>
+		<script>
+			var unityInstance = UnityLoader.instantiate("unityContainer", "Build/webgl.json", {onProgress: UnityProgress});
+		</script>
+	</head>
+	<body>
+		<p style="white-space: pre;">
+			Level 1: destroy all enemies!
+			WASD to walk, space to jump.
+			Enter/return to shoot.
+			Press left shift to transform!
+
+			Level 2: grab the golden monkey!
+			WASD to walk, space to jump.
+
+			Level 3: no objective here, click to walk.
+
+			Notes: 
+			- Web version of the game seems to be more glitchy than the 'normal' version.
+			- Tested in Firefox and Chromium.
+		</p>
+		<div class="webgl-content">
+			<div id="unityContainer" style="width: 960px; height: 600px"></div>
+			<div class="footer">
+				<div class="webgl-logo"></div>
+				<div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+				<div class="title">Borres demo level</div>
+			</div>
+		</div>
+	</body>
 </html>
